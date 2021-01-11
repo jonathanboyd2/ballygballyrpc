@@ -2612,8 +2612,43 @@ margin-top: 100px;
   clear: both;
 }
 
+/* sermon area */
 
-
+/* Create three equal columns that floats next to each other */
+.about_column {
+  float: left;
+  width: 33.333%;
+}
+#about-profile {
+width: 70%;
+}
+#about-us-container {
+    width: 70%!important;
+    height:800px;
+}
+@media (max-width: 1000px) {
+.about_column {
+  float: left;
+  width: 100%;
+}
+#about-profile {
+width: 80%;
+}
+#about-us-container {
+    width: 100%!important;
+    height:2900px;
+}
+#commitee_title{
+        width:85%;
+    }
+}
+/* Clear floats after the columns */
+.about-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* close sermon area */
 
 .banner-area-contact {
   background: url(../img/sermon.jpg) 0px;
