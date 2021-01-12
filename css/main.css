@@ -2624,7 +2624,7 @@ width: 70%;
 }
 #about-us-container {
     width: 70%!important;
-    height:800px;
+    height:1200px;
 }
 @media (max-width: 1000px) {
 .about_column {
@@ -2636,7 +2636,7 @@ width: 80%;
 }
 #about-us-container {
     width: 100%!important;
-    height:2900px;
+    height:3400px;
 }
 #commitee_title{
         width:85%;
