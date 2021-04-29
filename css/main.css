@@ -2352,7 +2352,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   text-transform: uppercase;
   overflow: hidden;
-  padding: 35px 70px 35px 70px;
+  padding: 12px 70px 12px 70px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -3485,6 +3485,111 @@ background-position: bottom;
 .contact-page-area .form-area input, .contact-page-area .form-area textarea {
   border-radius: 0;
   font-size: 12px;
+}
+/* Create two equal columns that floats next to each other */
+.sermon_column {
+  float: left;
+  width: 30.333%;
+  padding: 20px;
+  background-color:#2b5aa8;
+border: 1px solid #2b5aa8;
+border-radius: 10px;
+}
+
+.sermon_column h2 {
+        text-align: left;
+
+}
+.sermon_column a {
+    font-size: 23px;
+    text-align: left;
+    color: white;
+    opacity: .8;
+    transition-delay: 0;
+    transition: none;
+}
+.sermon_column a:hover {
+opacity: 1;
+        transition-delay: 0;
+    transition: none;
+text-decoration: underline!important;
+}
+.sermon_row{
+    margin-bottom: 30px;
+}
+.sermon_column p {
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    opacity: .5;
+    padding:0;
+margin: 0;
+}
+#sermon_column_GAP {
+margin-right: 3%;
+}
+
+/* Clear floats after the columns */
+.sermon_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#motto_image{
+    width:50%;
+    float:left;
+}
+
+#motto_text{
+padding:30px;
+line-height: 25px;
+    width:50%;
+    float:left;
+}
+#useful_links_break{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .column {
+  width: 100%;
+  padding: 10px;
+}
+    .home-column{
+        width:100%!important;
+    }
+    .home-column p{
+        padding-left:0px!important;
+    }
+#useful_links_break{
+    display: block;
+}
+#motto_text{
+padding:15px;
+    width:100%;
+}
+#motto_image{
+    width:100%;
+}
+.sermon_column {
+  width: 100%;
+  padding: 15px;
+margin-bottom: 15px;
+}
+
+.sermon_row{
+    margin-bottom: 0px;
+}
+
+#sermon_column_GAP {
+margin-right: 0%;
+}
+
+/* Clear floats after the columns */
+.sermon_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 }
 
 #about-us-text{
